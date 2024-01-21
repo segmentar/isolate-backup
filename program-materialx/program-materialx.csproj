@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C201B2E2-3ED5-4078-AB2F-8B232696AA7A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Core</RootNamespace>
+    <AssemblyName>program-materialx-x86-debug</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Materialxportableapi.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Part\0\ZeroZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Part\1\Onefirstprimarysingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Escape\Escape.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Focus\Focus.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromMaterialFull\LoadFromMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromMaterial\LoadFromMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromCurrentDirectoryFolderFull\LoadFromCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromCurrentDirectoryFolder\LoadFromCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromCurrentDirectoryFull\LoadFromCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFromCurrentDirectory\LoadFromCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\LoadFull\LoadFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Load\Load.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\MAN\MAN.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\HAM\HAM.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\NAL\NAL.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Overlap\Overlap.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadFull\ReloadFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInMaterialFull\ReloadInMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInMaterial\ReloadInMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInCurrentDirectoryFolder\ReloadInCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInCurrentDirectoryFolderFull\ReloadInCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInCurrentDirectoryFull\ReloadInCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\ReloadInCurrentDirectory\ReloadInCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Reload\Reload.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Root\Root.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveFull\SaveFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToCurrentDirectoryFolderFull\SaveToCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToCurrentDirectoryFolder\SaveToCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToCurrentDirectoryFull\SaveToCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToCurrentDirectory\SaveToCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToMaterialFull\SaveToMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SaveToMaterial\SaveToMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\TAK\TAK.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\SAJ\SAJ.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\KAI\KAI.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-api\MaterialxportableAPI\Type\Public\Save\Save.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-ascii\MaterialxportableAscii\Materialxportableascii.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Materialxportableasync.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Action\GroupAction.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Depth\GroupDepth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\MTA\GroupMTA.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\STA\GroupSTA.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Surface\GroupSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Target\GroupTarget.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Task\GroupTask.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-async\MaterialxportableAsync\Type\Group\Thread\GroupThread.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableloadcontext\Materialxportableloadcontext.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableloadcontext\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Materialxportableload.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromCurrentDirectoryFolderFull\GroupLoadFromCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromCurrentDirectoryFolder\GroupLoadFromCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromCurrentDirectory\GroupLoadFromCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromCurrentDirectoryFull\GroupLoadFromCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromMaterialFull\GroupLoadFromMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFromMaterial\GroupLoadFromMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\LoadFull\GroupLoadFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableload\Type\Group\Load\GroupLoad.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereadclose\Materialxportablereadclose.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereadclose\Type\Public\Close\Close.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereadclose\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Materialxportablereload.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadFull\GroupReloadFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInMaterialFull\GroupReloadInMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInMaterial\GroupReloadInMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInCurrentDirectoryFolderFull\GroupReloadInCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInCurrentDirectoryFolder\GroupReloadInCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInCurrentDirectoryFull\GroupReloadInCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\ReloadInCurrentDirectory\GroupReloadInCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablereload\Type\Group\Reload\GroupReload.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Byte\GroupByte.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\UInt64\GroupUInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\UInt32\GroupUInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\UInt16\GroupUInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\String\GroupString.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Char\GroupChar.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Boolean\GroupBoolean.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\SByte\GroupSByte.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Int16\GroupInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Int64\GroupInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Materialxportableremoteout.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Byte\GroupByte.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\UInt64\GroupUInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\UInt32\GroupUInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\UInt16\GroupUInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\String\GroupString.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Char\GroupChar.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Boolean\GroupBoolean.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\SByte\GroupSByte.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Int16\GroupInt16.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Int64\GroupInt64.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Int32\GroupInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Group\Object\GroupObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Public\RemoteType\RemoteType.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremoteout\Type\Public\Remote\Remote.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToCurrentDirectoryFolderFull\SaveToCurrentDirectoryFolderFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToCurrentDirectoryFolder\GroupSaveToCurrentDirectoryFolder.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToMaterialFull\SaveToMaterialFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToMaterial\SaveToMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablewriteclose\Type\Public\Close\Close.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablewriteclose\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AApplicationContext\AApplicationContext.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\AForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Contribute\Immutable\Immutable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Handle\OnLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Handle\OnPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Handle\OnPaintBackground.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Link\Default\AFormLinkDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Link\Prevent\AFormLinkPrevent.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Redirect\PropagateLoad\PropagateLoadRedirect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Redirect\PropagatePaint\PropagatePaintRedirect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-gui\AForm\Tick\Partition\Tick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-level\MaterialxportableLevel\Partition\Materialxportablelevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\Type\Forge\Root\ForgeRoot.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\Type\Public\Build\Build.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\Type\Set\Material\FunctionSetMaterial.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\Type\Set\Material\Surface\FunctionSetMaterialSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\Type\Set\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\Type\Set\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\XSecondary\XSeconary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\Type\Set\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\Type\Set\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\XFourth\XFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\XFour\XFour.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\XQuadruple\XQuadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Function\4\XQuaternary\XQuaternary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadbuild\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadfile\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablereadstream\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\Type\Set\Level\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\Type\Set\Level\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\XFourth\XFourth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\XFour\XFour.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\XQuadruple\XQuadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\4\XQuatenary\XQuatenary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\Type\Set\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\Type\Set\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\XFifth\XFifth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\XFive\XFive.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\XQuinary\XQuinary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\5\XQuintuple\XQuintuple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\Type\Set\FunctionSetLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\Type\Set\Surface\FunctionSetLevelSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\XSenary\XSenary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\XSextuple\XSextuple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\XSixth\XSixth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Function\6\XSix\XSix.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritebuild\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritefile\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Action\Action.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Default\Default.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\0\XZeroth\XZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\0\XZero\XZero.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\1\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\1\XFirst\XFirst.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\1\XOne\XOne.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\1\XPrimary\XPrimary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\1\XSingle\XSingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\2\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\2\XDouble\XDouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\2\XSecondary\XSecondary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\2\XSecond\XSecond.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\2\XTwo\XTwo.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\3\Type\Forge\Level\ForgeLevel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\3\XTertiary\XTertiary.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\3\XThird\XThird.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\3\XThree\XThree.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Function\3\XTriple\XTriple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Module.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-module\Materialxportablewritestream\Result\Result.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-name\MaterialxportableName\Partition\Materialxportablename.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableerror\Initializeraw\MaterialxportableerrorInitializeraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableerror\Materialxportableerror.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableerror\Object\MaterialxportableerrorObject\MaterialxportableerrorObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableerror\Type\Public\Initialize\Initialize.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableformat\Materialxportableformat.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableformat\Type\Group\Dashful\GroupDashful.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableformat\Type\Group\Dashless\GroupDashless.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableformat\Type\Group\RepresentString\RepresentString.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableinterface\Materialxportableinterface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableio\Materialxportableio.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableio\Type\Public\CreateDirectory\CreateDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableio\Type\Public\CreateFile\CreateFile.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableism\Materialxportableism.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportableisc\Materialxportableisc.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Materialxportablemagic.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\ArrayListCast\MaterialxportablemagicDispenserArrayListCast.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\ArrayList\MaterialxportablemagicDispenserArrayList.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\ThreadStart\MaterialxportablemagicDispenserThreadStart.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablerender\Contribute\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablerender\Link\Default\MaterialxportablerenderLinkDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablerender\Materialxportablerender.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablerender\Type\Group\RenderError\GroupRenderError.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablerender\Type\Group\Render\GroupRender.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablesafe\Materialxportablesafe.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablesafe\Type\Group\CharacterArray\GroupCharacterArray.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablesafe\Type\Group\Character\GroupCharacter.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablesafe\Type\Group\StringArray\GroupStringArray.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablesafe\Type\Group\String\GroupString.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablestringarraysafe\Materialxportablestringarraysafe.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablestringsafe\Materialxportablestringsafe.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-port\MaterialxportablePort\Partition\Materialxportableport.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-radical\MaterialxportableRadical\Materialxportableradical.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableadd\Materialxportableadd.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableadd\Type\Public\Add\Add.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableall\Type\Set\All\MaterialxportableallSetAll.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableall\Type\Set\All\Surface\MaterialxportableallSetAllSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableasynccontext\Materialxportableasynccontext.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Contribute\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Link\Default\MaterialxportableconfigureLinkDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Materialxportableconfigure.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Object\MaterialxportableconfigureObject\MaterialxportableconfigureObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Sealraw\MaterialxportableconfigureSealraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Type\Public\Export\Export.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableconfigure\Type\Public\Import\Import.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableescape\Materialxportableescape.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableescape\Type\Public\Escape\Escape.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablefocus\Materialxportablefocus.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablefocus\Type\Public\Focus\Focus.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablehexagon\Materialxportablehexagon.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablehexagon\Type\Public\Hexagon\Hexagon.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablelayout\Materialxportablelayout.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablelayout\Object\MaterialxportablelayoutObject\MaterialxportablelayoutObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableoverlap\Contribute\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableoverlap\Link\Default\MaterialxportableoverlapLinkDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableoverlap\Materialxportableoverlap.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableoverlap\Sealraw\MaterialxportableoverlapSealraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableoverlap\Type\Public\Overlap\Overlap.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Materialxportableportal.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Sealraw\MaterialxportableportalSealraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\0\ZeroZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\2\Twosecondsecondarydouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\1\Onefirstprimarysingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\3\Threethirdtertiarytriple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\4\Fourfourthquatenaryquadruple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Depart\5\Fivefifthquinaryquintuple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableportal\Type\Public\Portal\Portal.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablerandom\Informationraw\MaterialxportablerandomInformationraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablerandom\Materialxportablerandom.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablerandom\Type\Group\Color\GroupColor.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Materialxportableremotein.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Int32\GroupInt32.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Group\Object\GroupObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Public\RemoteType\RemoteType.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportableremotein\Type\Public\Remote\Remote.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableresize\Materialxportableresize.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableresize\Type\Public\Resize\Resize.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableroute\Materialxportableroute.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableroute\Type\Public\Route\Route.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesavecontext\Materialxportablesavecontext.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesavecontext\Type\Public\Data\Data.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Materialxportablesave.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveFull\GroupSaveFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToCurrentDirectoryFull\GroupSaveToCurrentDirectoryFull.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\SaveToCurrentDirectory\GroupSaveToCurrentDirectory.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablesave\Type\Group\Save\GroupSave.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Materialxportablesegment.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\MAN\GroupMAN.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\HAM\GroupHAM.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\NAL\GroupNAL.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\TAK\GroupTAK.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\SAJ\GroupSAJ.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesegment\Type\Group\KAI\GroupKAI.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableall\Materialxportableall.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesetpixel\Materialxportablepixel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportablesetpixel\Type\Public\Pixel\Pixel.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Materialxportableupscale.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Sealraw\MaterialxportableupscaleSealraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Type\Part\0\ZeroZeroth.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Type\Part\1\Onefirstprimarysingle.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Type\Part\2\Twosecondsecondarydouble.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-utility\Materialxportableupscale\Type\Public\Upscale\Upscale.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-esence\Materialxportablewriteclose\Materialxportablewriteclose.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Informationraw\MaterialxportableInformationraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Compressraw\MaterialxportableCompressraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Compress\MaterialxportableCompress.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Initializeraw\MaterialxportableInitializeraw.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Link\Code\MaterialxportableLinkCode.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Link\Policy\MaterialxportableLinkPolicy.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Materialxportable.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Object\MaterialxportableObject\MaterialxportableObject.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Prototype\MaterialxportablePrototype.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Simple\Partition\Simple.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Static\MaterialxportableStatic.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Type\Make\Default\MaterialxportableMakeDefault.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Type\Make\Default\Surface\MaterialxportableMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-studio\4\AssemblyInfo.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Type\Make\Sequence\Debug\MaterialxportableSequenceDebug.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Type\Make\Sequence\MaterialxportableSequence.cs" />
+    <Compile Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101\Materialxportable\Type\Variation\Root\MaterialxportableVariationRoot.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\LinkedListCast\" />
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\LinkedList\" />
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\StackCast\" />
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-portable\Materialxportablemagic\Type\Dispenser\Stack\" />
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-studio\2\" />
+    <Folder Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-studio\3\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-lib-dll-01-15-2024-06-20-AM-1020-materialx-101-studio\1\Document.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
