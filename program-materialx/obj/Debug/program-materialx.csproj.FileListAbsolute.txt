@@ -1,0 +1,6 @@
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\bin\Debug\program-materialx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\bin\Debug\program-materialx-x86-debug.pdb
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\obj\Debug\program-materialx.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\obj\Debug\program-materialx.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\obj\Debug\program-materialx-x86-debug.dll
+C:\Users\todor\OneDrive\Desktop\Isolated\program-materialx\obj\Debug\program-materialx-x86-debug.pdb
